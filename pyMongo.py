@@ -2,7 +2,7 @@
 """
 Created on Wed Apr 12 23:31:28 2023
 
-@author: ASUS
+@author: Adesh Patel
 """
 
 import pymongo
@@ -13,7 +13,7 @@ mydb = conn.mydb
 
 print(conn.list_database_names())
 
-collection = mydb.KuchindaCollege
+collection = mydb.KuntraCollege
 
 # collection.delete_many({})
 
